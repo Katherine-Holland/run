@@ -64,13 +64,24 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.40);
+    background-color: rgba(0,0,0,0.2);
 }
 
 .navbar .navbar-toggler {
     border: 0;
 }
 
+.navbar-brand {
+    font-weight: bold;
+}
+
+.dropdown-menu{
+     background-color: rgba(0,0,0,0.40);
+}
+
+.dropdown-item {
+    color: #fff;
+}
 /* Jumbotron */
 
 .jumbotron {
@@ -85,7 +96,7 @@ body {
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
+    color: #dbdbdb;
     margin: 25px 0;
 }
 
