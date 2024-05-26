@@ -170,13 +170,13 @@ color: #609a6a;
 }
 
 .feature .btn {
-    background-color: white;
-    border-color: white;
+    background-color:rgb(95, 155, 106, 0.7);
+    border-color:rgb(95, 155, 106, 0.7);
     border-radius: 15px;
     min-width: 100px;
     font-weight:bold;
     margin-top: 10px;
-    color: rgb(95, 155, 106, 0.7);
+    color: white;
 }
 
 /* Media queries for mobile */
