@@ -185,24 +185,24 @@ color: #609a6a;
 /* Media queries for mobile */
 @media (max-width: 768px) {
     .callout-container {
-        background-attachment: no-repeat center center fixed;
+        background-attachment: no-repeat center center;
     }
 }
 
 @media (max-width: 425px) {
     .callout-container {
-        background-attachment: no-repeat center center fixed;
+        background-attachment: no-repeat center center;
     }
 }
 
 @media (max-width: 375px) {
     .callout-container {
-        background-attachment: no-repeat center center fixed;
+        background-attachment: no-repeat center center;
     }
 }
 
 @media (max-width: 320px) {
     .callout-container {
-        background-attachment: no-repeat center center fixed;
+        background-attachment: no-repeat center center;
     }
 }
