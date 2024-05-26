@@ -3,9 +3,7 @@ body {
 }
 /* Containers */
 
-.container-wrapper {
-    
-}
+.container-wrapper {}
 
 .container-wrapper--red {
     background-color:#444;
@@ -39,67 +37,26 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {}
-
-.features-container {}
-
-/* Page Headers */
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-.quotes .page-header .features {
-    margin-bottom: 25px;
-}
-
-/* Block dividers */
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
-
-.block-divider--green {
-    background-color: #609a6a;
-}
-
-.block-divider--white {
-    background-color: white;
-}
-
-.block-divider--short {
-    width: 35px;
-}
-
-/* Content containers */
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
-}     
+}   
 
 /* Navbar */
 .navalert-container {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
 }
 
 .navbar {
     margin-bottom: 0;
-    border: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
+    border: 0;
 }
 
 .navbar .navbar-toggler {
@@ -118,6 +75,7 @@ body {
 .dropdown-item {
     color: #fff;
 }
+
 /* Jumbotron */
 
 .jumbotron {
@@ -146,6 +104,27 @@ body {
 color: #609a6a;
 }
 
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--green {
+    background-color: #609a6a;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+} 
+
 /* Buttons */
 
 .btn--cta {
@@ -169,6 +148,25 @@ color: #609a6a;
     color: white;
 }
 
+/* Page Headers */
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes .page-header .features {
+    margin-bottom: 25px;
+}
+
+/* Features */
+
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -184,9 +182,27 @@ color: #609a6a;
     color: rgb(95, 155, 106, 0.7);
 }
 
-/* Media queries for mobile 
-@media (max-width: 767px) {
+/* Media queries for mobile */
+@media (max-width: 768px) {
     .callout-container {
         background-attachment: scroll;
     }
-}*/
+}
+
+@media (max-width: 425px) {
+    .callout-container {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 375px) {
+    .callout-container {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 320px) {
+    .callout-container {
+        background-attachment: scroll;
+    }
+}
