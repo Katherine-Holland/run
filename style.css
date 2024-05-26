@@ -14,17 +14,14 @@ body {
 
 .callout-container {
     height: 100vh;
-
     background: url('images/moors.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -185,24 +182,24 @@ color: #609a6a;
 /* Media queries for mobile */
 @media (max-width: 768px) {
     .callout-container {
-        background-attachment: fixed;
+        background-attachment: relative;
     }
 }
 
 @media (max-width: 425px) {
     .callout-container {
-        background-attachment: fixed;
+        background-attachment: relative;
     }
 }
 
 @media (max-width: 375px) {
     .callout-container {
-        background-attachment: fixed;
+        background-attachment: relative;
     }
 }
 
 @media (max-width: 320px) {
     .callout-container {
-        background-attachment: fixed;
+        background-attachment: relative;
     }
 }
