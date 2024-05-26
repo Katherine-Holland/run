@@ -180,26 +180,31 @@ color: #609a6a;
 }
 
 /* Media queries for mobile */
+
 @media (max-width: 768px) {
     .callout-container {
-        background-attachment: relative;
+        background-attachment: scroll;
+        -webkit-background-attachment: scroll;
     }
 }
 
 @media (max-width: 425px) {
     .callout-container {
-        background-attachment: relative;
+        background-attachment: scroll;
+        -webkit-background-attachment: scroll;
     }
 }
 
 @media (max-width: 375px) {
     .callout-container {
-        background-attachment: relative;
+        background-attachment: scroll;
+        -webkit-background-attachment: scroll;
     }
 }
 
 @media (max-width: 320px) {
     .callout-container {
-        background-attachment: relative;
+        background-attachment: scroll;
+        -webkit-background-attachment: scroll;
     }
 }
