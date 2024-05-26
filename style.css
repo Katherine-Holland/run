@@ -184,9 +184,9 @@ color: #609a6a;
     color: rgb(95, 155, 106, 0.7);
 }
 
-/* Media queries for mobile */
+/* Media queries for mobile 
 @media (max-width: 767px) {
     .callout-container {
         background-attachment: scroll;
     }
-}
+}*/
