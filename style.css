@@ -185,7 +185,7 @@ color: #609a6a;
 /* Media queries for mobile */
 @media (max-width: 768px) {
     .callout-container {
-        background-attachment: no-repeat center center fixed
+        background-attachment: no-repeat center center fixed;
     }
 }
 
