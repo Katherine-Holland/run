@@ -184,7 +184,7 @@ color: #609a6a;
 @media (max-width: 768px) {
     .callout-container {
         background-attachment: scroll;
-        -webkit-background-attachment: fixed;
+        -webkit-background-attachment: scroll;
         -webkit-background-size: cover;
         position: relative;
         overflow: hidden;
@@ -224,7 +224,7 @@ color: #609a6a;
 /* Workaround for iOS devices */
 @supports (-webkit-touch-callout: none) {
     .callout-container {
-        background: url('images/moors.jpg') no-repeat center center;
+        background: url('images/moors.jpg') no-repeat center center fixed;
         background-size: cover;
         position: relative;
         overflow: hidden;
