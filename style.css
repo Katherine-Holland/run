@@ -194,11 +194,12 @@ color: #609a6a;
 
 @media (max-width: 425px) {
     .callout-container {
-        background-attachment: scroll;
-        -webkit-background-attachment: scroll;
+        background-attachment: fixed;
+        -webkit-background-attachment: fixed;
         -webkit-background-size: cover;
         position: relative;
         overflow: hidden;
+        height: 100vh;
     }
 }
 
@@ -229,6 +230,7 @@ color: #609a6a;
         background-size: cover;
         position: relative;
         overflow: hidden;
+        height: 100vh;
     }
 
     .callout-container::before {
@@ -241,5 +243,6 @@ color: #609a6a;
         background: url('images/moors.jpg') no-repeat center center fixed;
         background-size: cover;
         z-index: -1;
+        
     }
 }
