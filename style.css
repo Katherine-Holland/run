@@ -183,7 +183,7 @@ color: #609a6a;
 
 @media (max-width: 768px) {
     .callout-container {
-        background-attachment: fixed;
+        background-attachment: scroll;
         -webkit-background-attachment: fixed;
         -webkit-background-size: cover;
         position: relative;
