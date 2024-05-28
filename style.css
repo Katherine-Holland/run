@@ -185,6 +185,9 @@ color: #609a6a;
     .callout-container {
         background-attachment: fixed;
         -webkit-background-attachment: fixed;
+        -webkit-background-size: cover;
+        position: relative;
+        overflow: hidden;
     }
 }
 
@@ -192,6 +195,9 @@ color: #609a6a;
     .callout-container {
         background-attachment: fixed;
         -webkit-background-attachment: fixed;
+        -webkit-background-size: cover;
+        position: relative;
+        overflow: hidden;
     }
 }
 
@@ -199,6 +205,9 @@ color: #609a6a;
     .callout-container {
         background-attachment: fixed;
         -webkit-background-attachment: fixed;
+        -webkit-background-size: cover;
+        position: relative;
+        overflow: hidden;
     }
 }
 
@@ -206,6 +215,9 @@ color: #609a6a;
     .callout-container {
         background-attachment: fixed;
         -webkit-background-attachment: fixed;
+        -webkit-background-size: cover;
+        position: relative;
+        overflow: hidden;
     }
 }
 
