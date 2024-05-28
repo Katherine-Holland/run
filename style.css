@@ -183,6 +183,17 @@ color: #609a6a;
 
 @media (max-width: 768px) {
     .callout-container {
+        background-attachment: fixed;
+        -webkit-background-attachment: fixed;
+        -webkit-background-size: cover;
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 425px) {
+    .callout-container {
         background-attachment: scroll;
         -webkit-background-attachment: scroll;
         -webkit-background-size: cover;
@@ -191,20 +202,10 @@ color: #609a6a;
     }
 }
 
-@media (max-width: 425px) {
-    .callout-container {
-        background-attachment: fixed;
-        -webkit-background-attachment: fixed;
-        -webkit-background-size: cover;
-        position: relative;
-        overflow: hidden;
-    }
-}
-
 @media (max-width: 375px) {
     .callout-container {
-        background-attachment: fixed;
-        -webkit-background-attachment: fixed;
+        background-attachment: scroll;
+        -webkit-background-attachment: scroll;
         -webkit-background-size: cover;
         position: relative;
         overflow: hidden;
@@ -213,8 +214,8 @@ color: #609a6a;
 
 @media (max-width: 320px) {
     .callout-container {
-        background-attachment: fixed;
-        -webkit-background-attachment: fixed;
+        background-attachment: scroll;
+        -webkit-background-attachment: scroll;
         -webkit-background-size: cover;
         position: relative;
         overflow: hidden;
